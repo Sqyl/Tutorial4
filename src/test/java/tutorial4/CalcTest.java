@@ -15,7 +15,7 @@ public class CalcTest  extends TestCase{
 		public void testSubtract() {
 			int a = 1;
 			int b = 2;
-			Assert.assertEquals(Calc.subtract(a, b) , a + b);
+			Assert.assertEquals(Calc.subtract(a, b) , a - b);
 			
 		}
 		
